@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".Add_EmployeeActivity">
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/edtname"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/edtaddress"
+        android:layout_height="wrap_content"
+        android:hint="Enter your address"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/edtphone"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter your phone no"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/edtsalary"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:hint="Enter your salary"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/edtdesignation"
+        android:layout_height="wrap_content"
+        android:hint="Enter your designation"/>
+    <Button
+        android:layout_width="150dp"
+        android:onClick="addToServer"
+        android:layout_marginTop="12dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnsave"
+        android:text="Save"/>
+
+</LinearLayout>
